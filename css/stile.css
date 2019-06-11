@@ -1,0 +1,61 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+}
+
+header h1{
+	text-align: center;
+}
+
+.cosa1{
+	display: flex;
+	flex-wrap: wrap;
+	/*flex-direction: column;*/
+	justify-content: flex-end;
+	padding: 20px;
+}
+
+.cosa2{
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.cosa3{
+	display:flex;
+	justify-content: flex-end;
+	width: 70%;
+}
+
+.btn-primary:hover {
+	background-size: cover;
+}
+
+.boton{
+	width: 80%;
+}
+
+button:not{
+	width: 40%;
+}
+
+/*.ancho{
+	width: 470px;
+	padding: 10px;
+}*/
+
+button, input, optgroup, select, textarea{
+	padding: 4px 10px;
+}
+
+.boton{
+	color: #fff;
+	text-transform: uppercase;
+	background: blue;
+	padding: 10px;
+	border-radius: 5px;
+	width: 270px;
+}
